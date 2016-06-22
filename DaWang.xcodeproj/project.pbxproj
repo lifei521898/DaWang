@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0061F1501D19445B004AFC96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0061F14F1D19445B004AFC96 /* main.m */; };
+		0061F1531D19445B004AFC96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0061F1521D19445B004AFC96 /* AppDelegate.m */; };
+		0061F1561D19445B004AFC96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0061F1551D19445B004AFC96 /* ViewController.m */; };
+		0061F1591D19445B004AFC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0061F1571D19445B004AFC96 /* Main.storyboard */; };
+		0061F15B1D19445B004AFC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0061F15A1D19445B004AFC96 /* Assets.xcassets */; };
+		0061F15E1D19445B004AFC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0061F15C1D19445B004AFC96 /* LaunchScreen.storyboard */; };
+		0061F1691D19445B004AFC96 /* DaWangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0061F1681D19445B004AFC96 /* DaWangTests.m */; };
+		0061F1741D19445B004AFC96 /* DaWangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0061F1731D19445B004AFC96 /* DaWangUITests.m */; };
+		15058A452C5802C82C9EE5EB /* libPods-DaWang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DE86297D5421AD6EB28C05 /* libPods-DaWang.a */; };
+		187B3ECC52E7A4F95C9E8EEF /* libPods-DaWangTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F9ABA3201B34C2990C2CAE /* libPods-DaWangTests.a */; };
+		6A6AE1BC0E4A083ECD4781D4 /* libPods-DaWangUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7456222B85CB86EEE4789706 /* libPods-DaWangUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0061F1651D19445B004AFC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0061F1431D19445B004AFC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0061F14A1D19445B004AFC96;
+			remoteInfo = DaWang;
+		};
+		0061F1701D19445B004AFC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0061F1431D19445B004AFC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0061F14A1D19445B004AFC96;
+			remoteInfo = DaWang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0061F14B1D19445B004AFC96 /* DaWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0061F14F1D19445B004AFC96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0061F1511D19445B004AFC96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0061F1521D19445B004AFC96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0061F1541D19445B004AFC96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0061F1551D19445B004AFC96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0061F1581D19445B004AFC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0061F15A1D19445B004AFC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0061F15D1D19445B004AFC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0061F15F1D19445B004AFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0061F1641D19445B004AFC96 /* DaWangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaWangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0061F1681D19445B004AFC96 /* DaWangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaWangTests.m; sourceTree = "<group>"; };
+		0061F16A1D19445B004AFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0061F16F1D19445B004AFC96 /* DaWangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaWangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0061F1731D19445B004AFC96 /* DaWangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaWangUITests.m; sourceTree = "<group>"; };
+		0061F1751D19445B004AFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02255EDFA402ACFE0E051385 /* Pods-DaWang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaWang.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaWang/Pods-DaWang.release.xcconfig"; sourceTree = "<group>"; };
+		22054CBD719C614D397BFB8C /* Pods-DaWangUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaWangUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaWangUITests/Pods-DaWangUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25DE86297D5421AD6EB28C05 /* libPods-DaWang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DaWang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F9ABA3201B34C2990C2CAE /* libPods-DaWangTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DaWangTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1FB988B33DB15E667C04FC /* Pods-DaWang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaWang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaWang/Pods-DaWang.debug.xcconfig"; sourceTree = "<group>"; };
+		7456222B85CB86EEE4789706 /* libPods-DaWangUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DaWangUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB06375BC4773E830AA5071 /* Pods-DaWangUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaWangUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaWangUITests/Pods-DaWangUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C169986B8E795ED2B7B1B88 /* Pods-DaWangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaWangTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaWangTests/Pods-DaWangTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBBFDA138471C9E604E62C16 /* Pods-DaWangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaWangTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaWangTests/Pods-DaWangTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0061F1481D19445B004AFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15058A452C5802C82C9EE5EB /* libPods-DaWang.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0061F1611D19445B004AFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B3ECC52E7A4F95C9E8EEF /* libPods-DaWangTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0061F16C1D19445B004AFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6AE1BC0E4A083ECD4781D4 /* libPods-DaWangUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0061F1421D19445B004AFC96 = {
+			isa = PBXGroup;
+			children = (
+				0061F14D1D19445B004AFC96 /* DaWang */,
+				0061F1671D19445B004AFC96 /* DaWangTests */,
+				0061F1721D19445B004AFC96 /* DaWangUITests */,
+				0061F14C1D19445B004AFC96 /* Products */,
+				5F7E4F89B3ABA1D3BC0E634E /* Pods */,
+				B530D9270978197178FD1008 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0061F14C1D19445B004AFC96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0061F14B1D19445B004AFC96 /* DaWang.app */,
+				0061F1641D19445B004AFC96 /* DaWangTests.xctest */,
+				0061F16F1D19445B004AFC96 /* DaWangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0061F14D1D19445B004AFC96 /* DaWang */ = {
+			isa = PBXGroup;
+			children = (
+				0061F1511D19445B004AFC96 /* AppDelegate.h */,
+				0061F1521D19445B004AFC96 /* AppDelegate.m */,
+				0061F1541D19445B004AFC96 /* ViewController.h */,
+				0061F1551D19445B004AFC96 /* ViewController.m */,
+				0061F1571D19445B004AFC96 /* Main.storyboard */,
+				0061F15A1D19445B004AFC96 /* Assets.xcassets */,
+				0061F15C1D19445B004AFC96 /* LaunchScreen.storyboard */,
+				0061F15F1D19445B004AFC96 /* Info.plist */,
+				0061F14E1D19445B004AFC96 /* Supporting Files */,
+			);
+			path = DaWang;
+			sourceTree = "<group>";
+		};
+		0061F14E1D19445B004AFC96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0061F14F1D19445B004AFC96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0061F1671D19445B004AFC96 /* DaWangTests */ = {
+			isa = PBXGroup;
+			children = (
+				0061F1681D19445B004AFC96 /* DaWangTests.m */,
+				0061F16A1D19445B004AFC96 /* Info.plist */,
+			);
+			path = DaWangTests;
+			sourceTree = "<group>";
+		};
+		0061F1721D19445B004AFC96 /* DaWangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0061F1731D19445B004AFC96 /* DaWangUITests.m */,
+				0061F1751D19445B004AFC96 /* Info.plist */,
+			);
+			path = DaWangUITests;
+			sourceTree = "<group>";
+		};
+		5F7E4F89B3ABA1D3BC0E634E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D1FB988B33DB15E667C04FC /* Pods-DaWang.debug.xcconfig */,
+				02255EDFA402ACFE0E051385 /* Pods-DaWang.release.xcconfig */,
+				9C169986B8E795ED2B7B1B88 /* Pods-DaWangTests.debug.xcconfig */,
+				CBBFDA138471C9E604E62C16 /* Pods-DaWangTests.release.xcconfig */,
+				7CB06375BC4773E830AA5071 /* Pods-DaWangUITests.debug.xcconfig */,
+				22054CBD719C614D397BFB8C /* Pods-DaWangUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B530D9270978197178FD1008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25DE86297D5421AD6EB28C05 /* libPods-DaWang.a */,
+				38F9ABA3201B34C2990C2CAE /* libPods-DaWangTests.a */,
+				7456222B85CB86EEE4789706 /* libPods-DaWangUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0061F14A1D19445B004AFC96 /* DaWang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0061F1781D19445B004AFC96 /* Build configuration list for PBXNativeTarget "DaWang" */;
+			buildPhases = (
+				B95639676BDC0992D8200343 /* [CP] Check Pods Manifest.lock */,
+				0061F1471D19445B004AFC96 /* Sources */,
+				0061F1481D19445B004AFC96 /* Frameworks */,
+				0061F1491D19445B004AFC96 /* Resources */,
+				6A915F3BEBB565F468F8548A /* [CP] Embed Pods Frameworks */,
+				4E0644107358ADFBADDDC249 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaWang;
+			productName = DaWang;
+			productReference = 0061F14B1D19445B004AFC96 /* DaWang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0061F1631D19445B004AFC96 /* DaWangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0061F17B1D19445B004AFC96 /* Build configuration list for PBXNativeTarget "DaWangTests" */;
+			buildPhases = (
+				D5D462FCF00C7250C6F81E48 /* [CP] Check Pods Manifest.lock */,
+				0061F1601D19445B004AFC96 /* Sources */,
+				0061F1611D19445B004AFC96 /* Frameworks */,
+				0061F1621D19445B004AFC96 /* Resources */,
+				DEDDFFC4FF39CF9E431820BF /* [CP] Embed Pods Frameworks */,
+				A5867C78E6253972167BD4E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0061F1661D19445B004AFC96 /* PBXTargetDependency */,
+			);
+			name = DaWangTests;
+			productName = DaWangTests;
+			productReference = 0061F1641D19445B004AFC96 /* DaWangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0061F16E1D19445B004AFC96 /* DaWangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0061F17E1D19445B004AFC96 /* Build configuration list for PBXNativeTarget "DaWangUITests" */;
+			buildPhases = (
+				C1CB2AE6AB19EBC0A2E87E65 /* [CP] Check Pods Manifest.lock */,
+				0061F16B1D19445B004AFC96 /* Sources */,
+				0061F16C1D19445B004AFC96 /* Frameworks */,
+				0061F16D1D19445B004AFC96 /* Resources */,
+				03A798ABF9150BD60B0C4562 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0061F1711D19445B004AFC96 /* PBXTargetDependency */,
+			);
+			name = DaWangUITests;
+			productName = DaWangUITests;
+			productReference = 0061F16F1D19445B004AFC96 /* DaWangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0061F1431D19445B004AFC96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = a;
+				TargetAttributes = {
+					0061F14A1D19445B004AFC96 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0061F1631D19445B004AFC96 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0061F14A1D19445B004AFC96;
+					};
+					0061F16E1D19445B004AFC96 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0061F14A1D19445B004AFC96;
+					};
+				};
+			};
+			buildConfigurationList = 0061F1461D19445B004AFC96 /* Build configuration list for PBXProject "DaWang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0061F1421D19445B004AFC96;
+			productRefGroup = 0061F14C1D19445B004AFC96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0061F14A1D19445B004AFC96 /* DaWang */,
+				0061F1631D19445B004AFC96 /* DaWangTests */,
+				0061F16E1D19445B004AFC96 /* DaWangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0061F1491D19445B004AFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0061F15E1D19445B004AFC96 /* LaunchScreen.storyboard in Resources */,
+				0061F15B1D19445B004AFC96 /* Assets.xcassets in Resources */,
+				0061F1591D19445B004AFC96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0061F1621D19445B004AFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0061F16D1D19445B004AFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A798ABF9150BD60B0C4562 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaWangUITests/Pods-DaWangUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E0644107358ADFBADDDC249 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaWang/Pods-DaWang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A915F3BEBB565F468F8548A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaWang/Pods-DaWang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5867C78E6253972167BD4E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaWangTests/Pods-DaWangTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95639676BDC0992D8200343 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CB2AE6AB19EBC0A2E87E65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D462FCF00C7250C6F81E48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEDDFFC4FF39CF9E431820BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaWangTests/Pods-DaWangTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0061F1471D19445B004AFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0061F1561D19445B004AFC96 /* ViewController.m in Sources */,
+				0061F1531D19445B004AFC96 /* AppDelegate.m in Sources */,
+				0061F1501D19445B004AFC96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0061F1601D19445B004AFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0061F1691D19445B004AFC96 /* DaWangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0061F16B1D19445B004AFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0061F1741D19445B004AFC96 /* DaWangUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0061F1661D19445B004AFC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0061F14A1D19445B004AFC96 /* DaWang */;
+			targetProxy = 0061F1651D19445B004AFC96 /* PBXContainerItemProxy */;
+		};
+		0061F1711D19445B004AFC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0061F14A1D19445B004AFC96 /* DaWang */;
+			targetProxy = 0061F1701D19445B004AFC96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0061F1571D19445B004AFC96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0061F1581D19445B004AFC96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0061F15C1D19445B004AFC96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0061F15D1D19445B004AFC96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0061F1761D19445B004AFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0061F1771D19445B004AFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0061F1791D19445B004AFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1FB988B33DB15E667C04FC /* Pods-DaWang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DaWang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuMeng.DaWang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0061F17A1D19445B004AFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02255EDFA402ACFE0E051385 /* Pods-DaWang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DaWang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuMeng.DaWang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0061F17C1D19445B004AFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C169986B8E795ED2B7B1B88 /* Pods-DaWangTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaWangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuMeng.DaWangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaWang.app/DaWang";
+			};
+			name = Debug;
+		};
+		0061F17D1D19445B004AFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBFDA138471C9E604E62C16 /* Pods-DaWangTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaWangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuMeng.DaWangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaWang.app/DaWang";
+			};
+			name = Release;
+		};
+		0061F17F1D19445B004AFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB06375BC4773E830AA5071 /* Pods-DaWangUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DaWangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuMeng.DaWangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DaWang;
+			};
+			name = Debug;
+		};
+		0061F1801D19445B004AFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22054CBD719C614D397BFB8C /* Pods-DaWangUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DaWangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JuMeng.DaWangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DaWang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0061F1461D19445B004AFC96 /* Build configuration list for PBXProject "DaWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0061F1761D19445B004AFC96 /* Debug */,
+				0061F1771D19445B004AFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0061F1781D19445B004AFC96 /* Build configuration list for PBXNativeTarget "DaWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0061F1791D19445B004AFC96 /* Debug */,
+				0061F17A1D19445B004AFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0061F17B1D19445B004AFC96 /* Build configuration list for PBXNativeTarget "DaWangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0061F17C1D19445B004AFC96 /* Debug */,
+				0061F17D1D19445B004AFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0061F17E1D19445B004AFC96 /* Build configuration list for PBXNativeTarget "DaWangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0061F17F1D19445B004AFC96 /* Debug */,
+				0061F1801D19445B004AFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0061F1431D19445B004AFC96 /* Project object */;
+}
